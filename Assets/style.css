@@ -1,0 +1,96 @@
+h1 {
+    color: lightgray;
+}
+h2{
+    color: lightgray;
+} 
+  .margin-top-80 {
+    margin-top: 80px;
+  }
+body {
+    background-color: whitesmoke;
+    
+}
+
+.title{
+    color: teal;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: bolder;
+    padding-top: 25px;
+}
+.Visualization{
+  width: 50%;
+  height: 50%;
+}
+.box{
+    margin-top: 60px;
+    margin-bottom: 62px;
+    margin-right: 5x;
+    padding: 10px 20px 15px;
+    background-color: lightgray;
+
+}
+.wrapper {
+    align-self: start;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 50px;
+  }
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ .panel:hover{
+    border-color: teal;
+    border-style: solid;
+}
+p {
+/* line-height: 1.6;  */
+  font-family: Helvetica;
+  /* text-align: justify; */
+  /* margin: 0; */
+  font-size: 14px;
+}
+.table {
+  overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+    width: 100%;
+    font-size: 14px;
+    table-layout: auto;
+    border: 0;
+    margin: 0px;
+    padding:0px;
+}
+
+.navigation .navbar-brand{
+  margin-left: 40px;
+  padding:inherit;
+}
+
+
+/* Media sQueries */
+@media(max-width: 992px) {
+  .navbar{
+    max-height: none;
+    padding: inherit;
+  }
+
+  .navbar div{
+    margin: inherit;
+  }
+
+  .navbar-brand{
+    padding: 10px;
+  }
+  button{
+    margin-right: 30px;
+  }
+  button:focus{
+    outline: 1px dotted;
+    outline: 5px auto;
+  }
+}
