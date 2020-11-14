@@ -1,0 +1,13 @@
+--Year	Country	Happiness Rank	Happiness Score	Economy (GDP per Capita)	
+--Family	Health (Life Expectancy)	Freedom	Trust (Government Corruption)	Generosity
+-- CREATE TABLE public.world_happiness_data(    
+-- 	"Year" int,
+-- 	"country" varchar,
+-- 	"happiness_rank" varchar,
+-- 	"happiness_score" varchar,
+-- 	"economy" varchar,
+-- 	"family" varchar,
+-- 	"health" varchar,
+-- 	"freedom" varchar,
+-- 	"trust" varchar,
+-- 	"generosity" varchar);
