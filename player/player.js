@@ -196,7 +196,7 @@ Player.prototype = {
 
   /**
    * Seek to a new position in the currently playing track.
-   * @param  {Number} per Percentage through the song to skip.
+   * @param  {10} per Percentage through the song to skip.
    */
   seek: function(per) {
     var self = this;
