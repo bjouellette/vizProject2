@@ -1,8 +1,11 @@
 h1 {
-    color: lightgray;
+    color: salmon;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
 }
 h2{
-    color: lightgray;
+    color: salmon;
 } 
   .margin-top-80 {
     margin-top: 80px;
@@ -49,10 +52,10 @@ img{
 }
 p {
 /* line-height: 1.6;  */
-  font-family: Helvetica;
-  /* text-align: justify; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
   /* margin: 0; */
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 .table {
