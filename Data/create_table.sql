@@ -3,11 +3,11 @@
 -- CREATE TABLE public.world_happiness_data(    
 -- 	"Year" int,
 -- 	"country" varchar,
--- 	"happiness_rank" int,
--- 	"happiness_score" float,
--- 	"economy" float,
--- 	"family" float,
--- 	"health" float,
--- 	"freedom" float,
--- 	"trust" float,
--- 	"generosity" float);
+-- 	"happiness_rank" varchar,
+-- 	"happiness_score" varchar,
+-- 	"economy" varchar,
+-- 	"family" varchar,
+-- 	"health" varchar,
+-- 	"freedom" varchar,
+-- 	"trust" varchar,
+-- 	"generosity" varchar);
