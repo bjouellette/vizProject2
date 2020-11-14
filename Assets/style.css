@@ -6,6 +6,7 @@ h1 {
 }
 h2{
     color: salmon;
+    text-align: center;
 } 
   .margin-top-80 {
     margin-top: 80px;
@@ -15,6 +16,10 @@ body {
     
 }
 
+button{
+  text-align: center;
+  margin-left: 60px;
+}
 .title{
     color: teal;
     /* font-family: 'Times New Roman', Times, serif; */
