@@ -1,0 +1,17 @@
+-- drop table world_happiness_data
+-- select * from world_happiness_data;
+
+-- CREATE TABLE public.world_happiness_data(    
+-- 	"ID" varchar primary key,
+-- 	"Year" int,
+-- 	"country" varchar,
+-- 	"latitude" float,
+-- 	"longitude" float,
+-- 	"happiness_rank" varchar,
+-- 	"happiness_score" varchar,
+-- 	"economy" varchar,
+-- 	"family" varchar,
+-- 	"health" varchar,
+-- 	"freedom" varchar,
+-- 	"trust" varchar,
+-- 	"generosity" varchar);
