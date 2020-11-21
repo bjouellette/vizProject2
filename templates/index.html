@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="/Assets/style.css">
     </head>
     <body>
-      <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+      
       <script src="https://d3js.org/d3.v5.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -19,7 +19,8 @@
         <!-- Navigation Bar -->
         <div class = "navigation">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" style = "background-color: lightsalmon; color:whitesmoke; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; width: 140px; text-align: center; font-size: x-large" href="/templates/index.html" >:)</a>
+                <a class="navbar-brand" style = "background-color: lightsalmon; color:whitesmoke; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; width: 140px; height:50px; text-align:center; font-size: 30px;" href="/templates/index.html" >H&#9786;ME</a>
+                  <!-- <img class="nav-smile" src="/smile.jpg"> -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,21 +31,20 @@
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Visualizations
                       </a>
-                      <!-- 4 HTML files for pages -->
+                      
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/Assets/geo.html">Geospatial Map</a>
                         <a class="dropdown-item" href="/Assets/scatter.html">Scatter Chart</a>
                         <a class="dropdown-item" href="/Assets/bubble.html">Bubble Chart</a>
                         <a class="dropdown-item" href="/howler.js/examples/player/index.html">Music Player</a>
-                        <!-- <a class="dropdown-item" href="">Cloudiness</a>
-                        <a class="dropdown-item" href="">Wind Speed</a> -->
+                        
                       </div>
                     </li>
                     <li class="nav-item active">
-                        <!-- <a class="nav-link" href="comparison.html">Comparison</a> -->
+                       
                       </li>
                     <li class="nav-item active">
-                      <!-- <a class="nav-link" href="data.html">Data</a> -->
+                      
                     </li>
                   </ul>
 
@@ -52,7 +52,7 @@
               </nav>
         </div>
 
-
+<!-- First container -->
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-12">
@@ -62,13 +62,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="https://source.unsplash.com/1600x900/?happy,people" alt="First slide">
+                  <img class="d-block w-100" src="/Assets/friends.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://source.unsplash.com/1600x900/?happy,family" alt="Second slide">
+                  <img class="d-block w-100" src="/Assets/dog.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://source.unsplash.com/1600x900/?happy,friends" alt="Third slide">
+                  <img class="d-block w-100" src="/Assets/family.jpg" alt="Third slide">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -80,65 +80,27 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
+            <!-- Paragraphs -->
                   <br>     
                 <p>2020 is not what any of us expected it to be. We have all had hardships along the way, but it almost seems it has reached an unbearable point in today's media. We decided to take this project as an opportunity to look at the happiness that the world once had and to bring a little joy to those we've grown to know from afar.<br> </p>
                 <p> After the year we have seen, we decided to ask what social, economic, and health factors correlate to happiness. We wanted to identify the different year over year trends in happiness across the world, and examine relationships between variables influencing happiness. In the end, we wanted to determine if there are identifiable trends between geography and happiness.</p>
-                <!doctype html>
-<!-- <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="user-scalable=no"> -->
-                <!-- <title>Howler.js Audio Player</title>
-                <link rel="stylesheet" href="./styles.css">
-              </head>
-              <body>
-                Top Info
-                <div id="title">
-                  <span id="track"></span>
-                  <div id="timer">0:00</div>
-                  <div id="duration">0:00</div>
-                </div>
-                <div class="controlsOuter">
-                  <div class="controlsInner">
-                    <div id="loading"></div>
-                    <div class="btn" id="playBtn"></div>
-                    <div class="btn" id="pauseBtn"></div>
-                    <div class="btn" id="prevBtn"></div>
-                    <div class="btn" id="nextBtn"></div>
+               
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                  <p>Use the buttons below or use the navigation bar above to see what we found!<br> 
+                <!-- button groups -->
+                    <div class="btn mr-2" class="center">
+                    <a class="btn btn-dark" href="/Assets/geo.html">Geospatial Map »</a>
+                    <a class="btn btn-dark" href="/Assets/scatter.html">Scatter Chart »</a>
+                    <a class="btn btn-dark" href="/Assets/bubble.html">Bubble Chart »</a></p>
                   </div>
-                  <div class="btn" id="playlistBtn"></div>
-                  <div class="btn" id="volumeBtn"></div>
-                </div>
-                 Progress
-                <div id="waveform"></div>
-                <div id="bar"></div>
-                <div id="progress"></div>
-
-                Playlist
-                <div id="playlist">
-                  <div id="list"></div>
-                </div>
-
-                Volume
-                <div id="volume" class="fadeout">
-                  <div id="barFull" class="bar"></div>
-                  <div id="barEmpty" class="bar"></div>
-                  <div id="sliderBtn"></div>
-                </div> -->
-                  <!-- <p>Use the buttons below or use the navigation bar above to see what we found!</p><br> -->
-                  <!-- <button type="button" class="btn btn-dark" href="/Assets/geo.html" role="button" aria-pressed="true">Geospatial Map</button>
-                  <button type="button" class="btn btn-dark" href="/Assets/scatter.html">Scatter Chart</button>
-                  <button type="button" class="btn btn-dark" href="/Assets/bubble.html">Bubble Chart</button> -->
-                  <!-- <p>Chart Analysis Here.</p><br>
-      <br>
-                <p>Other Information if needed here.</p> -->
+      
               </div>
             </div>
           </div>
         </div>
-        <!-- <script src="/howler.js/src/howler.core.js"></script>
-        <script src="/howler.js/examples/player/siriwave.js"></script>
-        <script src="/howler.js/examples/player/player.js"></script> -->
+       
     </body>
 
     </html>
