@@ -13,7 +13,7 @@
       <!-- <link rel="stylesheet" type="text/css" href="/Assets/slick/slick.css"/>
    // Add the new slick-theme.css if you want the default styling -->
       <!-- <link rel="stylesheet" type="text/css" href="/Assets/slick/slick-theme.css"/> -->
-      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -37,6 +37,7 @@
                         <a class="dropdown-item" href="/Assets/geo.html">Geospatial Map</a>
                         <a class="dropdown-item" href="/Assets/scatter.html">Scatter Chart</a>
                         <a class="dropdown-item" href="/Assets/bubble.html">Bubble Chart</a>
+                        <a class="dropdown-item" href="/Assets/bar.html">Bar Chart</a>
                         <a class="dropdown-item" href="/howler.js/examples/player/index.html">Music Player</a>
                     </div>
                 </li>
@@ -58,13 +59,19 @@
         </div>
         <div class="row">
             <div class="col-xs-12  col-md-9">
-              <div id="bubble"> 
+              <div id="simpleBubble"> 
                 <!-- We append our chart here. -->
-             </div>
+                </div>
+                <style>
+                  .node:hover{
+                    stroke-width: 7px !important;
+                    opacity: 1 !important;
+                  }
+                </style>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row"> 
-            <div class="col-xs-12  col-md-9">
-              <div class="article">
-                <br>
-                <!-- <h2>Insert Text Here</h2> -->
+      </body>
+    </div>
+  </div>
+  

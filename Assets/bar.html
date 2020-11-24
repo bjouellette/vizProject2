@@ -54,19 +54,34 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <h1>Geospatial Visualization</h1>
+        <div class="col-md-12 jumbotron text-center">
+          <h1>World Happiness Rating</h1>
         </div>
-        <div class="row">
-            <div class="col-xs-12  col-md-9">
-              <div id="geo">
-                <!-- We append our chart here. -->
-              </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Select Year:</h5>
+            <select id="selDataset" onchange="optionChanged(this.value)">
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+            </select>
           </div>
-          <div class="row">
-            <div class="col-xs-12  col-md-9">
-              <div class="article">
-                <br>
-                <!-- <h2>Insert Text Here</h2> -->
-                
+          <div class="col-md-4">
+            <div id="bar"></div>
+          </div>
+          <div class="col-md-4">
+          <div id="bar-plot"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="/static/bar.js"></script>
+  ​
+  
+  
