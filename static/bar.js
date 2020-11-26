@@ -43,15 +43,20 @@ function getplot(Year) {
    var trace = {
     x: countries,
     y: ratings,
-    type: "bar"
-    };
+    type: "bar",
+    marker: {
+        color: "rgba(58,200,225,.5)",
+        line: {
+          color: "rgb(58,200,225,.5)",
+    }
+   }};
 
     // Create the data array for our plot
     var data = [trace];
 
     // Define our plot layout
     var layout = {
-    title: "Top Happy Countries",
+    title: "Top Ten Countries",
     xaxis: { title: "Countries" },
     yaxis: { title: "HappinessScore"}
     };
@@ -63,15 +68,20 @@ function getplot(Year) {
    var trace2 = {
     x: countriesAscending,
     y: ratingsAscending,
-    type: "bar"
-    };
+    type: "bar",
+    marker: {
+        color: "rgb(247, 128, 114)",
+        line: {
+          color: "rgb(247, 128, 114)",
+    }
+    }};
 
     // Create the data array for our plot
     var data2 = [trace2];
 
     // Define our plot layout
     var layout2 = {
-    title: "Least Happy Countries",
+    title: "Bottom Ten Countries",
     xaxis: { title: "Countries" },
     yaxis: { title: "HappinessScore"}
     };
