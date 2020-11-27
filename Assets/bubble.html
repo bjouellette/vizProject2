@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Project 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/Assets/style.css">
+    </head>
+    <body>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- d3 script -->
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+        <!-- Navigation Bar -->
+        <div class = "navigation">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" style = "background-color: lightsalmon; color:whitesmoke; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; width: 140px; text-align: center; font-size: x-large" href="/index.html" >:)</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visualizations
+                      </a>
+                      <!-- 4 HTML files for pages -->
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/Assets/geo.html">Geo Viz</a>
+                        <a class="dropdown-item" href="/Assets/scatter.html">Scatter Chart</a>
+                        <a class="dropdown-item" href="/Assets/bubbleSimple.html">Bubble Chart</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="/Assets/geo.html">Geo Viz</a>
+                  </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="/Assets/scatter.html">Scatter</a>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h1>Greatest Happiness by Year</h1>
+        </div>     
+        <div class="container">
+          <div class="row margin-top-50">
+            <div class="col-md-2">
+              <aside class="filters">
+                <div class="panel panel-default">
+                  <div class="panel-heading">Select Variables</div>
+                  <div class="panel-body">
+                    <form>
+                      <ul>
+                        <li>
+                          <select year = "dropdown" id="year-input">
+                            <option class = "yrValue" value = "2019" selected>2019</option>
+                            <option class = "yrValue" value = "2018">2018</option>
+                            <option class = "yrValue" value = "2017">2017</option>
+                            <option class = "yrValue" value = "2016">2016</option>
+                            <option class = "yrValue" value = "2015">2015</option>
+                         </select>
+                        </li>
+                      </ul>
+                    </form>
+              </aside>
+        <div class="row">
+            <div class="col-xs-12  col-md-12">
+             <div id="simpleBubble"> 
+              <!-- We append our chart here. -->
+              </div>
+              <style>
+                .node:hover{
+                  stroke-width: 7px !important;
+                  opacity: 1 !important;
+                }
+              </style>
+              </div>
+            </div>
+          </div>
+      <!-- Bubble Chart js file -->
+      <script src="../static/bubble.js"></script>
+    </body>
+  </div>
+</div>
