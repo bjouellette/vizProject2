@@ -33,7 +33,7 @@ button{
     margin-bottom: 62px;
     margin-right: 5x;
     padding: 10px 20px 15px;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 .wrapper {
     display: flex;

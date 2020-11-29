@@ -56,7 +56,7 @@ var mouseleave = function (d) {
 var allData;
 
 // import data
-d3.csv("../Data/2015 - 2019 Happiness Report Data.csv").then(function (happyData) {
+d3.csv("/Data/data.csv").then(function (happyData) {
 
     console.log(happyData)
 
