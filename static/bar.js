@@ -1,3 +1,5 @@
+getplot("2015")
+
 function getplot(Year) {
    // Load data from HappinessData file
 
